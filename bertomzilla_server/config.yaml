@@ -1,0 +1,90 @@
+#############################################
+#####  BERTOMZILLA CONFIGURATION FILE   #####
+##### PLEASE UPDATE THIS FILE FOR FULLY #####
+#####    FUNCTIONNAL SERVER PROGRAMM    #####
+#############################################
+#####     WRITTEN BY JORIS BERTOMEU     #####
+#############################################
+#####    Last Released on 03/19/2015    #####
+#############################################
+#####           i_* = Integer           #####
+#####		s_* = String		#####
+#####		f_* = File Path		#####
+#############################################
+
+#############################################
+############# MAIN CONFIGURATION ############
+#############################################
+
+# SERVER PORT (Default 21)
+i_net_port      : 33669
+
+# NETWORK INTERFACE
+s_net_iface     : wlan0
+
+# WELCOME BANNER FILE (4096 char Max)
+f_srv_banner    : /etc/bertomzilla/banner.cnf
+
+#############################################
+########### MYSQL CONFIGURATION #############
+#############################################
+
+# MYSQL ACTIVATION
+i_mysql_enabled : 1
+
+# MYSQL IP SERVER
+s_mysql_server  : 127.0.0.1
+
+# MYSQL BERTOMZILLA USER
+s_mysql_user    : bertomzilla
+
+# MYSQL BERTOMZILLA PASSWORD
+s_mysql_pass    : password
+
+# MYSQL BERTOMZILLA DATABASE
+s_mysql_db      : bertomzilla
+
+# MYSQL ONLINE FTP USERS
+# Allow to manage users into BertomZilla GUI
+i_mysql_users   : 1
+
+#############################################
+############## SSL ENCRYPTATION  ############
+#############################################
+
+# SSL ACTIVATION
+i_ssl_enabled   : 1
+
+# SSL FAST CONNECTION
+i_ssl_fconnect  : 1
+
+#############################################
+############## LOGS MANAGEMENT  #############
+#############################################
+
+# LOGS ACTIVATION
+i_log_enabled   : 1
+
+# LOG FILE
+f_log_file      : /etc/bertomzilla/bertomzilla.log
+
+# LOG LEVEL
+# 1 = All - 2 = Errors & Warning - 3 = Warning - 4 = Errors
+i_log_level     : 4
+
+# MAXIMUM LOG FILE SIZE (Octets) - DEFAULT : 512 Kb
+i_log_max_size	: 512000
+
+#############################################
+############# BERTOMZILLA MONIT #############
+#############################################
+
+# MONIT ACTIVATION
+i_monit_enabled	: 1
+
+# MONIT PORT
+i_monit_port	: 3884
+
+# MONIT LOG
+# Enable log for monitoring side
+i_monit_log	: 1

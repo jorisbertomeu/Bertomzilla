@@ -1,0 +1,6 @@
+total 6836
+-rwxr-xr-x 1 jobertomeu jobertomeu   41832 mars   8 20:39 a.out
+-rw-r--r-- 1 jobertomeu jobertomeu 6918144 mars   8 20:42 boogie.mp3
+-rw-r--r-- 1 jobertomeu jobertomeu   15601 mars   8 20:38 main.c
+-rw-r--r-- 1 jobertomeu jobertomeu    1506 mars   8 19:51 server.h
+drwxr-xr-x 2 jobertomeu jobertomeu    4096 mars   8 20:56 test

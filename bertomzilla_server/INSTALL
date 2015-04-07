@@ -1,0 +1,46 @@
+BERTOMZILLA SERVER	by	Joris Bertomeu
+==============================================
+
+* Installation Steps
+---------------------
+
+1) $> ./configure
+	=> Check your system to verify all dependencies are installed
+2) $> make
+	=> BertomZilla Server's compilation
+3) $> sudo make install
+      	=> Install BertomZilla Executable named "server" into your favorite executable path
+
+/!\ NOW BERTOMZILLA IS COMPILED AND INSTALLED INTO YOUR SYSTEM BUT ONCE CONFIGURATION IS NECESSARY /!\
+
+4) $> sudo ./check_system
+        => Check your system about Apache, PHP and MySQL Dependencies and create 'Bertomzilla' user
+	   and a database attached with tables structure and a default user 'admin' (passwd : 'admin')
+
+5) It's possible you have to restart MySQL Server after this operation, use 'sudo service mysql restart'
+   or 'sudo /etc/init.d/mysql restart'
+
+5) BertomZilla Server is now fully installed and configured.
+   You can go to 'http://127.0.0.1/BertomZilla' with 'admin' 'admin' for BertomZilla Server GUI V1.0
+
+Now, you can install BertomZilla client for more compatibility and SSL encryptation between BS(1) and BC(2)
+
+(1) BertomZilla Server
+(2) BertomZilla Client
+
+
+* Release Info
+--------------
+
+	* Version 1.1 :
+	  	  - SSL Compatibility and encryptation
+		  - Secured authentification and MySQL Communication
+		  - Adding autotools support inluding configure
+	
+	* Version 1.0 :
+	  	  - RFC 959 compatibility
+		  - Multi transferts
+		  - Multi account support
+		  - Rights management
+		  - BertomZilla GUI integration
+		  - MySQL Mode included
