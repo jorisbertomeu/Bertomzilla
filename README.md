@@ -12,7 +12,7 @@ Server side is a full server written in C wich communicate with a MySQL Database
 * View graphs including stats about lot of params like data exchanged by day on a week or exchange count by user on a week
 * Debuging console included to get some raw informations from Bertomzilla Server like current exchange, server state ...
 
-This server with web interface have been developped with <3 for all dev or adminsys who ever dream about a full solution able to manage completely a secure FTP Server.
+This server with web interface was developed with <3 for all dev or adminsys who ever dream about a full solution able to manage completely a secure FTP Server.
 
 ### Client
 Bertomzilla client is a simple FTP Client fully able to communicate with another FTP Server. This is a CLI Client including some stuff for Bertomzilla Server : 
